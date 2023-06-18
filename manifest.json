@@ -16,8 +16,7 @@
       "all_frames": true,
       "matches": ["https://mail.google.com/*"],
       "css": ["index.css"],
-      "js": ["index.js"],
-      "run_at": "document_end"
+      "run_at": "document_start"
     }
   ],
   "permissions": ["activeTab", "scripting"],
@@ -30,5 +29,11 @@
     "32": "logo modified.png",
     "48": "logo modified.png",
     "128": "logo modified.png"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["generateSummary.html", "utils.js", "generateSummary.js"],
+      "matches": ["https://mail.google.com/*"]
+    }
+  ]
 }
