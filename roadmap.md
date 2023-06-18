@@ -6,8 +6,8 @@
 
 ## Tasks
 
-[ ] Set up Chat GPT API
+- [ ] Set up Chat GPT API
 
-[ ] Find how to add button next to emails
+- [ ] Find how to add button next to emails
 
-[ ] Show summarized text below email
+- [ ] Show summarized text below email
