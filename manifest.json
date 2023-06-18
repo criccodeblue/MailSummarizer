@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Mail Summarizer",
+  "version": "1.0",
+  "description": "An extension to summarize emails using chat gpt",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "logo modified.png",
+      "48": "logo modified.png",
+      "128": "logo modified.png"
+    }
+  },
+  "permissions": ["activeTab"],
+  "icons": {
+    "16": "logo modified.png",
+    "32": "logo modified.png",
+    "48": "logo modified.png",
+    "128": "logo modified.png"
+  }
+}
