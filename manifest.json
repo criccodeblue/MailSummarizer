@@ -11,7 +11,20 @@
       "128": "logo modified.png"
     }
   },
-  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "matches": ["https://mail.google.com/*"],
+      "css": ["index.css"],
+      "js": ["index.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["https://mail.google.com/*"],
   "icons": {
     "16": "logo modified.png",
     "32": "logo modified.png",

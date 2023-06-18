@@ -8,6 +8,8 @@
 
 - [ ] Set up Chat GPT API
 
-- [ ] Find how to add button next to emails
+- [x] Find how to add button next to emails
+
+- [ ] Add a button next to emails
 
 - [ ] Show summarized text below email
