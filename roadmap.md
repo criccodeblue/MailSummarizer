@@ -8,6 +8,8 @@
 
 - [ ] Set up Chat GPT API
 
+- [ ] Automatically run extension on page load gmail
+
 - [ ] Find how to add button next to emails
 
 - [ ] Show summarized text below email
